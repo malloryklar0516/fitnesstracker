@@ -1,0 +1,14 @@
+<body class="workouts">
+  {{#each workouts}}
+  <section class="card">
+    <div class="card-header flex-row justify-space-between">
+      <h2> {{date}} </h2>
+
+    </div>
+    <div class="card-body">
+      <p> Duration: {{workout_minutes}} </p>
+      <p> Type: {{workout_type}}</p>
+    </div>
+  </section>
+  {{/each}}
+</body>
