@@ -10,5 +10,8 @@
     "sequelize": "^6.33.0",
     "session": "^0.1.0",
     "winston": "^3.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
